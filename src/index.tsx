@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {SplitIntoWords, sum} from "./01_hello_tests/01";
 
+var a= sum(1,2)
+const sentense = 'Hello World!';
+const result = SplitIntoWords(sentense)
+console.log(result);
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
